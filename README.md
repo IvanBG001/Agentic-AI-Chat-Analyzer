@@ -62,8 +62,8 @@ flowchart LR
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/yourusername/BiztelAI_ChatAnalyzer.git
-cd BiztelAI_ChatAnalyzer
+git clone https://github.com/yashdew3/Agentic-AI-Chat-Analyzer.git
+cd Agentic_AI_ChatAnalyzer
 
 # 2. Create and activate environment (optional)
 python -m venv venv
