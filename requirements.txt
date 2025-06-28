@@ -1,0 +1,24 @@
+pandas
+numpy
+seaborn
+matplotlib
+plotly
+nltk
+scikit-learn
+transformers
+torch
+sentence-transformers
+wordcloud
+streamlit
+fastapi
+uvicorn
+ydata-profiling
+requests
+
+# Additional libraries for specific tasks
+beautifulsoup4 
+lxml
+scipy
+statsmodels
+altair
+dask
